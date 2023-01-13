@@ -1,0 +1,47 @@
+.Pokemon{
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    width: 100%;
+    height: auto;
+   
+}
+.cajaPagi{
+    text-align: center;
+    
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-top: 2px solid rgb(49, 49, 189);
+    border-bottom: 2px solid rgb(49, 49, 189);
+    margin-bottom: 10px;
+}
+ul.pagination li a:hover{
+    color: #30cfd0;
+    border-top: none;
+    border-bottom: none;
+    background: rgb(49, 49, 189);
+    box-shadow: 1px 2px 7px 0 #000;
+    filter: opacity(.9);
+    transform: scale(1.04);
+
+}
+ul.pagination li a:hover:after{
+    color: beige;
+    background: black;
+    
+}
+.cajaPag{
+    text-align: center;
+}

@@ -39,7 +39,7 @@ const CaracterPokemo = () => {
                     </div>
                     <div className="barra">
                     <div  style={style} className={`bara${colorB}`}>
-              <style>{`@keyframes  html-barra{100%{width:${PokemonId.stats?.[0].base_stat}%;}}`} </style>
+              <style>{`@keyframes  html-barra{100%{width:${(PokemonId.stats?.[0].base_stat)/2}%;}}`} </style>
             </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const CaracterPokemo = () => {
                     </div>
                     <div className="barra" >
                     <div  style={style1} className={`bara${colorB}`}>
-                    <style>{`@keyframes  html-barra1{100%{width:${PokemonId.stats?.[1].base_stat}%;}}`} </style>
+                    <style>{`@keyframes  html-barra1{100%{width:${(PokemonId.stats?.[1].base_stat)/2}%;}}`} </style>
             </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const CaracterPokemo = () => {
                     </div>
                     <div className="barra">
                     <div  style={style2} className={`bara${colorB}`}>
-                    <style>{`@keyframes  html-barra2{100%{width:${PokemonId.stats?.[2].base_stat}%;}}`} </style>
+                    <style>{`@keyframes  html-barra2{100%{width:${(PokemonId.stats?.[2].base_stat/2)}%;}}`} </style>
             </div>
                     </div>
                 </div>

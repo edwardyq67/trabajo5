@@ -35,7 +35,7 @@ const CaracterPokemo = () => {
                 <div className="conn">
                     <div className="barras">
                         <h3>{PokemonId.stats?.[0].stat.name}</h3>
-                        <h3>{PokemonId.stats?.[1].base_stat}</h3>
+                        <h3>{PokemonId.stats?.[0].base_stat}</h3>
                     </div>
                     <div className="barra">
                     <div  style={style} className={`bara${colorB}`}>
@@ -57,7 +57,7 @@ const CaracterPokemo = () => {
                 <div className="conn">
                     <div className="barras">
                         <h3>{PokemonId.stats?.[2].stat.name}</h3>
-                        <h3>{PokemonId.stats?.[1].base_stat}</h3>
+                        <h3>{PokemonId.stats?.[2].base_stat}</h3>
                     </div>
                     <div className="barra">
                     <div  style={style2} className={`bara${colorB}`}>

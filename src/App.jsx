@@ -8,6 +8,7 @@ import ProtectedRoutes from './components/Potected'
 import './css/UserName.css'
 import './css/Pokemon.css'
 import'./css/GridPokemon.css'
+import'./css/ultPagina.css'
 function App() {
 
 
